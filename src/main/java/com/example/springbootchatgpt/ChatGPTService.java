@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 @Service
 public class ChatGPTService {
-
+//https://github.com/gantoin/ChatGPT-Java-API/blob/master/src/main/java/chatgpt/ChatGPT.java
     public static String chatGPT(String text) throws Exception {
         String url = "https://api.openai.com/v1/completions";
         HttpURLConnection con = (HttpURLConnection) new URL(url).openConnection();
